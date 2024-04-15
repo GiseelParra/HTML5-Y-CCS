@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Asmatic_SC';  
+}
+@font-face{
+    font-family: 'Dancing_Script';
+    src: url('Dancing_Script/DancingScript-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Aboreto';
+    src: url('Aboreto/Aboreto-Regular.ttf');
+}
+@font-face {
+    font-family: 'Amatic_SC';
+    src: url('Amatic_SC/AmaticSC-Regular.ttf');
+}
+body {
+    font-family: 'Dancing_Script';
+    background-color: rgb(235, 229, 255);
+}
+.contenido {
+    margin-top: 20em;
+    width: 100%;
+    height: 40%;
+    background-color: rgb(56, 56, 155);
+}
+.contenido .contenidosuperior h1{
+    padding-top: 5%;
+    font-family: 'Dancing_Script';
+    text-align: center;
+    color: aliceblue;
+    font-size: 3em;
+}
+.contenido .contenidosuperior p{
+    padding-top: 2%;
+    font-family: 'Aboreto';
+    text-align: center;
+    color: aliceblue;
+    font-size: 1em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.contenidotarjetas {
+    background-color: rgb(56, 56, 155);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+    font-size: 18px;
+    color: aliceblue;
+    padding-bottom: 5%;
+}
+.contenido .contenidotarjetas .tarjetauno {
+    font-family: 'Aboreto';
+    flex-grow: 1;
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+    width: 100%;
+    height: 190%;
+}
+.contenido .contenidotarjetas .tarjetados {
+    font-family: 'Aboreto';
+    flex-grow: 1;
+    flex-direction: column;
+    text-align: center;
+    color:aliceblue;
+}
+.contenido .contenidotarjetas .tarjetatres {
+    font-family: 'Aboreto';
+    flex-grow: 1;
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+}
+.tarjetauno, .tarjetados, .tarjetatres {
+    margin: 1em 2em 1em 2em;
+}

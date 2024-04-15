@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+}
+@font-face{
+    font-family: 'Roboto' ;
+    src: url('Roboto/Roboto-Italic.ttf');
+}
+@font-face{
+    font-family: 'Dongle';
+    src: url('Dongle/Dongle-Regular.ttf');
+}
+@font-face{
+    font-family: 'Dancing_Script';
+    src: url('Dancing_Script/DancingScript-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Gruppo';
+    src: url('Gruppo/Gruppo-Regular.ttf');
+}
+@font-face {
+    font-family: 'Aboreto';
+    src: url('Aboreto/Aboreto-Regular.ttf');
+}
+@font-face {
+    font-family: 'Amatic_SC';
+    src: url('Amatic_SC/AmaticSC-Regular.ttf');
+}
+@font-face {
+    font-family: 'Imbue';
+    src: url('Imbue/Imbue-VariableFont_opsz\,wght.ttf');
+}
+@font-face {
+    font-family: 'Shadows';
+    src: url('Shadows/ShadowsIntoLight-Regular.ttf');
+}
+body {
+    background-image: url('Imagenes/tyler.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    color: rgb(155, 111, 111);
+    margin-bottom: -5px;
+    font-family: 'Dancing_Script' ;
+    font-size: 5em;
+    text-align: center;
+    text-shadow: 2px 1px rgb(253, 253, 253);
+}
+h2 {
+    color:rgb(155, 111, 111);
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Dancing_Script';
+    text-shadow: 2px 1px rgb(253, 253, 253);
+}
+.Titulo{
+    color:rgb(155, 111, 111);
+    margin-top: 0px;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Aboreto';
+    font-weight: bold;
+    text-shadow: 2px 1px rgb(253, 253, 253);
+}
+.Contenidos{
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border: 2px solid black;
+    border-radius: 100px;
+    box-shadow: 0px 4px 4px 0px rgb(245, 206, 206);
+}
+.Menu {
+    margin-bottom: 15px;
+}
+.Menu p{
+    color:rgb(49, 49, 49);
+    text-align: center;
+    display: inline-block;
+    width: 49%;
+}
+.Nombre, .Precio  {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Aboreto';
+}
+.Producto {
+    font-family: 'Imbue';
+    font-size: 2em;
+}
+.tarjeta{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    margin:20px auto;
+    box-shadow: 0px 4px 4px 0px rgb(245, 206, 206);
+    background-image: url();
+}
+.tarjeta h2 {
+    font-size: 3em;
+    text-shadow: 2px 1px rgb(253, 253, 253);
+}
+.tarjeta p {
+    font-size: 1em;
+    font-family: 'Aboreto';
+    font-weight: bold;
+    text-align: initial;
+    margin-top: 10px;
+    color:rgb(49, 49, 49);
+    text-align: center;
+}
+.Contenedor{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding: auto;
+}
+.Caja1{
+    width: 700px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    position: fixed;
+    top: 38px;
+    bottom: 0px;
+    left: 40px;
+    right: 0px;
+    color: rgb(155, 111, 111);
+    font-family: 'Dancing_Script' ;
+    text-shadow: 2px 1px rgb(253, 253, 253);
+    font-size: 5em;
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    margin:10px auto;
+    box-shadow: 0px 4px 4px 0px rgb(245, 206, 206);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.Caja2{
+    width: 250px;
+    height: 200px;
+    background-image: url(Imagenes/larisa.jpg);
+    text-align: initial;
+    position: relative;
+    top: 800px;
+    left: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 80px;
+}
+.Caja3{
+    width: 100px;
+    height: 100px;
+    display: inline-block; 
+    position: relative;
+}
+.Caja4{
+    width: 100px;
+    height: 100px;
+    display: inline-block; 
+    position: relative;
+}
+.fotoperfil {
+    border-radius: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.contacto {
+    left: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Roboto' ;
+    position: relative;
+    width: 240px;
+    height: 20px;
+}
